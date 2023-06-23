@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <Navbar />
+    <Navbar/>
   </div>
-  <RouterView />
+  <RouterView/>
 </template>
 
 <script lang="ts">
@@ -10,11 +10,16 @@ import Navbar from './components/Navbar.vue'
 
 export default {
   name: 'App',
-  components: {
-    Navbar,
-  },
 }
 </script>
-<style lang="scss">
-@import './style/style.scss';
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+}
 </style>

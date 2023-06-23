@@ -14,21 +14,25 @@
 <template>
     <nav>
         <div id="logo">
-            <img src='/logo.svg' alt="logo" />
+            <img src='/logo' alt="logo" />
             {{ $t('nav.name') }}
         </div>
 
         <ul class="nav-links">
-            <li>
-                <router-link to="/">{{ $t("nav.home") }}</router-link>
+            <li v-for="list in navLinks" :key="list.key">
+                <a v-if="list.dropdown === false" :href="list.link">{{ list.name }}</a>
+                <div class="dropdown-link" v-else>
+                    <a :href="list.link">
+                        {{ list.name }}
+                        <span>&#x2193;</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li v-for="item in list.dropdownLinks" :key="item.key">
+                            <a :href="item.link">{{ item.name }}</a>
+                        </li>
+                    </ul>
+                </div>
             </li>
-            <li>
-                <router-link to="/about">{{ $t("nav.about") }}</router-link>
-            </li>
-            <li>
-                <router-link to="/contact">{{ $t("nav.contact") }}</router-link>
-            </li>
-            <li><img src="/france.svg" alt="lang fr"></li>
         </ul>
 
         <div v-on:click="openMobileNav()" id="burger">

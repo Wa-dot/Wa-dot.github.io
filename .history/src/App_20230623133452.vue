@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <Navbar />
+    <Navbar/>
   </div>
-  <RouterView />
+  <RouterView/>
 </template>
 
 <script lang="ts">

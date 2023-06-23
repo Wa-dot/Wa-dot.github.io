@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <Navbar />
+    <Navbar/>
   </div>
-  <RouterView />
+  <RouterView/>
 </template>
 
 <script lang="ts">
@@ -15,6 +15,14 @@ export default {
   },
 }
 </script>
-<style lang="scss">
-@import './style/style.scss';
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+}
 </style>

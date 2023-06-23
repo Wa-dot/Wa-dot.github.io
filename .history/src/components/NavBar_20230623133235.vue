@@ -20,15 +20,11 @@
 
         <ul class="nav-links">
             <li>
-                <router-link to="/">{{ $t("nav.home") }}</router-link>
+                <a >Coucou</a>
             </li>
             <li>
-                <router-link to="/about">{{ $t("nav.about") }}</router-link>
+                <a>Caché</a>
             </li>
-            <li>
-                <router-link to="/contact">{{ $t("nav.contact") }}</router-link>
-            </li>
-            <li><img src="/france.svg" alt="lang fr"></li>
         </ul>
 
         <div v-on:click="openMobileNav()" id="burger">

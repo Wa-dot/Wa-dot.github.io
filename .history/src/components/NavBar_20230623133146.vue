@@ -19,16 +19,9 @@
         </div>
 
         <ul class="nav-links">
-            <li>
-                <router-link to="/">{{ $t("nav.home") }}</router-link>
+            <li v-for="list in navLinks" :key="list.key">
+                <a v-if="list.dropdown === false" :href="list.link">{{ list.name }}</a>
             </li>
-            <li>
-                <router-link to="/about">{{ $t("nav.about") }}</router-link>
-            </li>
-            <li>
-                <router-link to="/contact">{{ $t("nav.contact") }}</router-link>
-            </li>
-            <li><img src="/france.svg" alt="lang fr"></li>
         </ul>
 
         <div v-on:click="openMobileNav()" id="burger">
