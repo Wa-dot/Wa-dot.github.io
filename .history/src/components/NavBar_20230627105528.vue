@@ -61,6 +61,6 @@ export default {
 }
 </script>
 
-<style lang="scss">
-@import './NavBar.scss';
+<style>
+@import './NavBar.scss'
 </style>

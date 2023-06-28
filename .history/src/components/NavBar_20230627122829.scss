@@ -13,13 +13,12 @@ div#logo {
     font-weight: 800;
     font-size: 2rem;
     font-family: $logo-font;
-    padding-left: 4%;
+    padding-left: 15px;
 }
 
 ul.nav-links {
     align-items: end;
     display: flex;
-    padding: 0 5%;
     width: 40%;
     line-height: 75px;
 }
@@ -47,23 +46,23 @@ ul.nav-links a {
     margin: 8px;
     background-color: $white;
     transition: all 0.3s ease-in;
-    padding: .1px;
 }
 
 ul.dropdown-menu {
     position: absolute;
+    top: 8vh;
     background-color: $primary-color;
+    min-width: 140px;
     cursor: pointer;
     display: none;
 }
 
 ul.dropdown-menu li:first-child {
-    margin: 0 0 5px 0;
+    margin: 0 0 10px 0;
 }
 
 ul.dropdown-menu li {
     margin: 10px 0;
-    
 }
 
 ul.dropdown-menu li:last-child {

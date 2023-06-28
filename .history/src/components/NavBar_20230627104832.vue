@@ -1,10 +1,75 @@
-@import '../style/.variables.scss';
+<template>
+    <nav>
+        <div id="logo">
+            <img src='/logo.svg' alt="logo" />
+            {{ $t('nav.name') }}
+        </div>
+
+        <ul class="nav-links">
+            <li>
+                <router-link to="/">{{ $t("nav.home") }}</router-link>
+            </li>
+            <li>
+                <router-link to="/about">{{ $t("nav.about") }}</router-link>
+            </li>
+            <li>
+                <router-link to="/contact">{{ $t("nav.contact") }}</router-link>
+            </li>
+            <li><img src="/france.svg" alt="lang fr"></li>
+        </ul>
+
+        <div v-on:click="openMobileNav()" id="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+</template>
+              
+<script lang="ts">
+export default {
+    name: 'Navbar',
+    props: ['name', 'logoImg', 'navLinks'],
+    methods: {
+        openMobileNav() {
+            const burger = document.getElementById('burger')!
+            const nav = document.querySelector('.nav-links')!
+            const navLinks = document.querySelectorAll('.nav-links li')!
+
+            nav.classList.toggle('nav-active')
+            burger.classList.toggle('toggle')
+
+            // Animate navigation links
+            navLinks.forEach((link, index) => {
+                if (link.style.animation || link.style.webkitAnimation) {
+                    link.style.animation = ''
+                    link.style.webkitAnimation = ''
+                } else {
+                    link.style.webkitAnimation = `navLinkFade 0.5s ease forwards ${index / 7
+                        }s`
+                    link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7}s`
+                }
+            })
+        },
+    },
+    mounted() {
+        this.openDropdownNav()
+        if (window.innerWidth < 768) {
+            this.countClicksOnMobileDropdown()
+        }
+    },
+}
+</script>
+              
+<style lang="scss">
+@import './NavBar.scss';
 nav {
     display: flex;
+    justify-content: space-around;
     align-items: center;
     background-color: $primary-color;
-    min-height: 8.5vh;
-    font-family: $secondary-font;
+    min-height: 8vh;
+    font-family: 'Montserrat', sans-serif;
 }
 
 div#logo {
@@ -12,14 +77,11 @@ div#logo {
     color: $white;
     font-weight: 800;
     font-size: 2rem;
-    font-family: $logo-font;
-    padding-left: 4%;
 }
 
 ul.nav-links {
-    align-items: end;
     display: flex;
-    padding: 0 5%;
+    justify-content: space-between;
     width: 40%;
     line-height: 75px;
 }
@@ -47,23 +109,23 @@ ul.nav-links a {
     margin: 8px;
     background-color: $white;
     transition: all 0.3s ease-in;
-    padding: .1px;
 }
 
 ul.dropdown-menu {
     position: absolute;
+    top: 8vh;
     background-color: $primary-color;
+    min-width: 140px;
     cursor: pointer;
     display: none;
 }
 
 ul.dropdown-menu li:first-child {
-    margin: 0 0 5px 0;
+    margin: 0 0 10px 0;
 }
 
 ul.dropdown-menu li {
     margin: 10px 0;
-    
 }
 
 ul.dropdown-menu li:last-child {
@@ -147,3 +209,4 @@ ul.dropdown-menu a {
 .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
 }
+</style>

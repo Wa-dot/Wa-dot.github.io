@@ -53,17 +53,17 @@ ul.nav-links a {
 ul.dropdown-menu {
     position: absolute;
     background-color: $primary-color;
+    min-width: 140px;
     cursor: pointer;
     display: none;
 }
 
 ul.dropdown-menu li:first-child {
-    margin: 0 0 5px 0;
+    margin: 0 0 10px 0;
 }
 
 ul.dropdown-menu li {
     margin: 10px 0;
-    
 }
 
 ul.dropdown-menu li:last-child {
