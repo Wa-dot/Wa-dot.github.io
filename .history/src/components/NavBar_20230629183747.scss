@@ -9,7 +9,6 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 5px;
-    left: 0;
 }
 
 div#logo a {
@@ -19,11 +18,14 @@ div#logo a {
     font-size: 2em;
     font-family: $logo-font;
     padding-left: 25%;
-    display: flex;    
+    display: flex;
+    
+    text-align: end;
 }
 
 ul.nav-links {
     padding: 0 5%;
+    width: 40%;
     display: flex;
     padding-right: 0;
     
