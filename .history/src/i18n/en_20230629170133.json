@@ -1,0 +1,14 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "About"
+        
+    },
+    "home": {
+        "header": "Welcome in the website",
+        "created_by": "This tutorial was brought to you by loremipsum."
+    },
+    "about": {
+        "header": "About us"
+    }
+}

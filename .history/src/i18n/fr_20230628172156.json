@@ -1,0 +1,21 @@
+{
+    "general": {
+        "title": "Mon site web",
+        "description": "Ceci est un site web"
+    },
+    "nav": {
+        "home": "Home",
+        "about": "A propos de nous",
+        "contact": "Contactez-nous",
+        "name": "Laluc",
+        "lang": "fr"
+    },
+    "home": {
+        "header": "Bienvenue sur le site web",
+        "created_by": "Créer par un loremipsum"
+    },
+    "about": {
+        "header": "A propos de nous"
+    }
+    
+}
