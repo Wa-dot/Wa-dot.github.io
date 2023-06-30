@@ -1,37 +1,8 @@
 <template>
-    <section id="cover">
-        <h1>{{ $t('home.header') }}</h1>
+    <section>
+        <h1>Scroll Down to Reveal Elements &#8595;</h1>
     </section>
-    <section id="product-home">
-        <div class="container reveal">
-            <h2>{{$t("product.header")}}</h2>
-            <div class="text-container">
-                <div class="text-box">
-                    <h3>{{ $t('product.about-us') }}</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                        eius molestiae perferendis eos provident vitae iste.
-                    </p>
-                </div>
-                <div class="text-box">
-                    <h3>{{ $t("nav.product") }}</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                        eius molestiae perferendis eos provident vitae iste.
-                    </p>
-                </div>
-                <div class="text-box">
-                    <h3>{{ $t("nav.terroir") }}</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                        eius molestiae perferendis eos provident vitae iste.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="terroir-home">
+    <section>
         <div class="container reveal">
             <h2>Caption</h2>
             <div class="text-container">
@@ -60,7 +31,36 @@
         </div>
     </section>
 
-    <section id="about-us-home">
+    <section>
+        <div class="container reveal">
+            <h2>Caption</h2>
+            <div class="text-container">
+                <div class="text-box">
+                    <h3>Section Text</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                        eius molestiae perferendis eos provident vitae iste.
+                    </p>
+                </div>
+                <div class="text-box">
+                    <h3>Section Text</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                        eius molestiae perferendis eos provident vitae iste.
+                    </p>
+                </div>
+                <div class="text-box">
+                    <h3>Section Text</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                        eius molestiae perferendis eos provident vitae iste.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
         <div class="container reveal">
             <h2>Caption</h2>
             <div class="text-container">
@@ -110,8 +110,4 @@ function reveal() {
 window.addEventListener("scroll", reveal);
 
 </script>
-
-<style lang="scss">
-@import "./HomePage.scss";
-</style>
 

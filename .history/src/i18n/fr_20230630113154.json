@@ -23,7 +23,6 @@
         "product1": {
             "name": "Produit 1",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae",
-            "category": "Champagne",
             "img": {
                 "src": "/bottleineTest.jpg",
                 "alt": "Produit 1"
@@ -32,7 +31,6 @@
         "product2": {
             "name": "Produit 2",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae",
-            "category": "Vin",
             "img": {
                 "src": "/bottleineTest.jpg",
                 "alt": "Produit 2"
@@ -41,7 +39,6 @@
         "product3": {
             "name": "Produit 3",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae",
-            "category": "Crément",
             "img": {
                 "src": "/bottleineTest.jpg",
                 "alt": "Produit 3"
@@ -50,7 +47,6 @@
         "product4": {
             "name": "Produit 4",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae",
-            "category": "Vodka",
             "img": {
                 "src": "/bottleineTest.jpg",
                 "alt": "Produit 4"

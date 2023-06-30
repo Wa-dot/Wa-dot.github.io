@@ -103,6 +103,7 @@ ul.dropdown-menu a {
 @media screen and (max-width: 768px) {
 
     ul.nav-links {
+        div.taclasse{position:relative;z-index:10;}
         position: absolute;
         flex-direction: column;
         width: 100%;

@@ -1,13 +1,13 @@
 <template>
     <section id="cover">
-        <h1>{{ $t('home.header') }}</h1>
+        <h1>Scroll Down to Reveal Elements &#8595;</h1>
     </section>
-    <section id="product-home">
+    <section id="product">
         <div class="container reveal">
-            <h2>{{$t("product.header")}}</h2>
+            <h2>Caption</h2>
             <div class="text-container">
                 <div class="text-box">
-                    <h3>{{ $t('product.about-us') }}</h3>
+                    <h3>{{ $t('nav.about-us') }}</h3>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
                         eius molestiae perferendis eos provident vitae iste.
@@ -31,7 +31,7 @@
         </div>
     </section>
 
-    <section id="terroir-home">
+    <section id="terroir">
         <div class="container reveal">
             <h2>Caption</h2>
             <div class="text-container">
@@ -60,7 +60,7 @@
         </div>
     </section>
 
-    <section id="about-us-home">
+    <section id="about-us">
         <div class="container reveal">
             <h2>Caption</h2>
             <div class="text-container">

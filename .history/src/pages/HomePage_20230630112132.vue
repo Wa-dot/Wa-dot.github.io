@@ -4,10 +4,10 @@
     </section>
     <section id="product-home">
         <div class="container reveal">
-            <h2>{{$t("product.header")}}</h2>
+            <h2>Caption</h2>
             <div class="text-container">
                 <div class="text-box">
-                    <h3>{{ $t('product.about-us') }}</h3>
+                    <h3>{{ $t('nav.about-us') }}</h3>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
                         eius molestiae perferendis eos provident vitae iste.

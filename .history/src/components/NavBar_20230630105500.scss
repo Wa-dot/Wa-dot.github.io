@@ -4,13 +4,11 @@
 nav {
     background-color: $primary-color;
     font-family: $secondary-font;
-    position: fixed;
+    position: sticky;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 5px;
-    top: 0;
-    width: 100%;
 }
 
 div#logo a {
@@ -101,7 +99,6 @@ ul.dropdown-menu a {
 
 /* Mobile */
 @media screen and (max-width: 768px) {
-
     ul.nav-links {
         position: absolute;
         flex-direction: column;
@@ -114,6 +111,7 @@ ul.dropdown-menu a {
         text-align: center;
         justify-content: flex-start;
         background-color: $primary-color;
+        opacity: 0.8;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
 
