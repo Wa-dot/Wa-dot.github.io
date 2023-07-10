@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=League+Spartan:wght@200&display=swap');
+
+
+
+$light-theme: true;
+
+//fonts
+$logo-font: 'Great Vibes', cursive;
+$secondary-font: 'League Spartan', sans-serif;
+
+
+// color
+$primary-color: #584283;
+$secondary-color: #4E57D6;
+$white: #edede5;
+$black: #000000;
+$grey: #3c362a;
+$grey2: #242424;
+
+//Color wine
+$primary-color-brut-rose: #ee63ac;
+$primary-color-brut: #4E57D6;
+$primary-color-blanc-de-noir: #584284;
+$primary-color-cuvee-reserve: #FADE49;
+
+
+
+
+// Img
+$logo: url("/logo.png");
+$bg-cover: url("/paysage.png");
+
+//bootstrap
+$body-bg: #000;
+$body-color: #111;

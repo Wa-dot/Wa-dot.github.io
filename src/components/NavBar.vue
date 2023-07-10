@@ -14,7 +14,8 @@
             <li @click="closeMobileNav()">
                 <router-link to="/contact" class="unline-center">{{ $t("nav.terroir") }}</router-link>
             </li>
-            <img v-if="$i18n.locale === 'fr'" src="../assets/icon/flags/us.svg" alt="lang fr" class="lang" @click="changeLanguage()">
+            <img v-if="$i18n.locale === 'fr'" src="../assets/icon/flags/us.svg" alt="lang fr" class="lang"
+                @click="changeLanguage()">
             <img v-else src="../assets/icon/flags/france.svg" alt="lang us" class="lang" @click="changeLanguage()">
         </ul>
 
@@ -30,7 +31,6 @@
 import 'vue-i18n';
 export default {
     name: 'Navbar',
-    props: ['name', 'logoImg', 'navLinks'],
     methods: {
         openMobileNav() {
             const burger = document.getElementById('burger')!
@@ -59,21 +59,10 @@ export default {
             burger.classList.remove('toggle')
         },
         changeLanguage() {
-            console.log("this.$i18n.locale");
-            if (this.$i18n.locale === 'fr') {
-                this.$i18n.locale = 'en';
-            } else {
-                this.$i18n.locale = 'fr';
-            }
+            this.$i18n.locale === 'fr'? this.$i18n.locale = 'en' : this.$i18n.locale = 'fr'
         }
-    },
-    mounted() {
-        if (window.innerWidth < 768) {
-            
-        }
-    },
+    }
 }
-
 </script>
 
 <style lang="scss">
