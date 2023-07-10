@@ -1,0 +1,42 @@
+@import "../style/style.scss";
+
+.carousel {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    margin: 25%;
+}
+
+
+.carousel-content {
+    overflow: hidden;
+    margin: 10px;
+    display: flex;
+}
+
+.carousel-button {
+    z-index: 10;
+    .-prev {
+        position: initial
+    }
+
+    .-next {
+        position: initial;
+
+    }
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.carousel-item {
+    flex: none;
+    width: calc((100%) / 3);
+}

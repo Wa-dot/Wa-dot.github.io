@@ -1,0 +1,67 @@
+@import "../style/style.scss";
+
+.carousel {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+}
+
+
+.carousel-content {
+    display: absolute;
+    overflow: hidden;
+    margin: 5% 15% 0% 15%;
+    display: flex;
+
+}
+
+.carousel-button {
+    z-index: 10;
+    background-color: $white;
+    .-prev {
+        right: 0;
+    }
+}
+
+.carousel-track {
+    display: inline-flex;
+    transition: transform 0.5s ease-in-out;
+    width: fit-content;
+}
+
+.carousel-item {
+
+    width: calc((100%) / 3);
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.carouselPicture {
+    width: 100%;
+    height: auto;
+}
+.products-title{
+    text-align: center;
+
+}
+
+@media screen and (max-width: 768px) {
+    .carousel-item {
+        width: calc((100%) / 2);
+        padding: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .carousel-button {
+        display: none;
+    }
+
+    .carouselPicture {
+        width: 100%;
+        height: auto;
+    }
+}
