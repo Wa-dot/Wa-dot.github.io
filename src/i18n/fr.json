@@ -14,8 +14,50 @@
         "header": "Bienvenue au Domaine Laluc",
         "subheader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae"
     },
+    "contact": {
+        "contactUs": "Contactez-nous",
+        "name": "Nom",
+        "email": "Email",
+        "message": "Message",
+        "send": "Envoyer",
+        "object": "Objet",
+        "tel": "Téléphone",
+        "callUs": "Appelez-nous",
+        "address": "Adresse",
+        "popUp": "Copié dans le presse-papier"
+    },
+    "CGU": {
+        "title": "Conditions générales d'utilisation",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae"
+    },
+    "legalNotice": {
+        "title": "Mentions légales",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae"
+    },
     "about-us": {
-        "header": "A propos de nous"
+        "header": "A propos de nous",
+        "header2": "Notre équipe",
+        "employee1": {
+            "name": "Employee 1",
+            "title": "Directeur",
+            "email": "employee1@example.com",
+            "description": "Employee 1 est le directeur de notre entreprise. Il a plus de 10 ans d'expérience dans le domaine et a su mener notre entreprise vers le succès grâce à son leadership et sa vision stratégique. Il est passionné par son travail et s'efforce toujours de faire progresser notre entreprise.",
+            "alt": "Employee 1"
+        },
+        "employee2": {
+            "name": "Employee 2",
+            "title": "Manager",
+            "email": "employee2@example.com",
+            "description": "Employee 2 est notre manager. Elle est responsable de la gestion de l'équipe et du bon déroulement des projets. Elle a une grande expérience en gestion de projet et sait comment motiver son équipe pour atteindre les objectifs fixés. Elle est toujours à l'écoute des besoins de ses collègues et s'efforce de créer un environnement de travail agréable.",
+            "alt": "Employee 2"
+        },
+        "employee3": {
+            "name": "Employee 3",
+            "title": "Développeur",
+            "email": "employee3@example.com",
+            "description": "Employee 3 est notre développeur. Il est en charge de la création et du développement de nos produits. Il a une grande expertise en développement web et mobile, et sait comment créer des produits innovants et performants. Il est passionné par son travail et aime relever de nouveaux défis techniques.",
+            "alt": "Employee 3"
+        }
     },
     "products": {
         "header": "Nos produits",
@@ -57,7 +99,29 @@
             }
         }
     },
-    "terroir":{
-        
+    "terroir": {
+        "header": "Notre terroir",
+        "subheader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae",
+        "terroir1": {
+            "name": "Terroir 1",
+            "description": "Description du terroir n°1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet porttitor eget dolor morbi non arcu risus quis. Eget duis at tellus at urna condimentum mattis. Eget arcu dictum varius duis. Nisl pretium fusce id velit ut tortor pretium. Donec enim diam vulputate ut. Porta lorem mollis aliquam ut porttitor leo a. Facilisis gravida neque convallis a cras. Turpis nunc eget lorem dolor sed viverra. Sed risus pretium quam vulputate dignissim suspendisse in est ante. Non sodales neque sodales ut etiam sit. Ultrices sagittis orci a scelerisque. Maecenas volutpat blandit aliquam etiam. Tincidunt vitae semper quis lectus. Sit amet volutpat consequat mauris nunc congue nisi vitae suscipit. Gravida in fermentum et sollicitudin ac orci phasellus egestas.",
+            "img": {
+                "alt": "Terroir 1"
+            }
+        },
+        "terroir2": {
+            "name": "Terroir 2",
+            "description": "Description du terroir n°2 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet porttitor eget dolor morbi non arcu risus quis. Eget duis at tellus at urna condimentum mattis. Eget arcu dictum varius duis. Nisl pretium fusce id velit ut tortor pretium. Donec enim diam vulputate ut. Porta lorem mollis aliquam ut porttitor leo a. Facilisis gravida neque convallis a cras. Turpis nunc eget lorem dolor sed viverra. Sed risus pretium quam vulputate dignissim suspendisse in est ante. Non sodales neque sodales ut etiam sit. Ultrices sagittis orci a scelerisque. Maecenas volutpat blandit aliquam etiam. Tincidunt vitae semper quis lectus. Sit amet volutpat consequat mauris nunc congue nisi vitae suscipit. Gravida in fermentum et sollicitudin ac orci phasellus egestas.",
+            "img": {
+                "alt": "Terroir 2"
+            }
+        },
+        "terroir3": {
+            "name": "Terroir 3",
+            "description": "Description du terroir n°3 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet porttitor eget dolor morbi non arcu risus quis. Eget duis at tellus at urna condimentum mattis. Eget arcu dictum varius duis. Nisl pretium fusce id velit ut tortor pretium. Donec enim diam vulputate ut. Porta lorem mollis aliquam ut porttitor leo a. Facilisis gravida neque convallis a cras. Turpis nunc eget lorem dolor sed viverra. Sed risus pretium quam vulputate dignissim suspendisse in est ante. Non sodales neque sodales ut etiam sit. Ultrices sagittis orci a scelerisque. Maecenas volutpat blandit aliquam etiam. Tincidunt vitae semper quis lectus. Sit amet volutpat consequat mauris nunc congue nisi vitae suscipit. Gravida in fermentum et sollicitudin ac orci phasellus egestas.",
+            "img": {
+                "alt": "Terroir 3"
+            }
+        }
     }
 }

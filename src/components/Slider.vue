@@ -25,7 +25,7 @@
 </template>
   
 <script lang='ts'>
-import { images } from './store'
+import { images } from '../store'
 
 export default {
     name: 'Slider',
@@ -83,4 +83,4 @@ export default {
 <style lang="scss">
 @import "./Slider.scss";
 </style>
-  
+  ../store

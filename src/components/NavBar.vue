@@ -9,7 +9,7 @@
                 <router-link to="/about-us" class="unline-center">{{ $t("nav.about-us") }}</router-link>
             </li>
             <li @click="closeMobileNav()">
-                <router-link to="/" class="unline-center">{{ $t("nav.product") }}</router-link>
+                <router-link to="/contact" class="unline-center">{{ $t("nav.product") }}</router-link>
             </li>
             <li @click="closeMobileNav()">
                 <router-link to="/contact" class="unline-center">{{ $t("nav.terroir") }}</router-link>
@@ -66,5 +66,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import './NavBar.scss';
+@import './NavB0ar.scss';
 </style>
