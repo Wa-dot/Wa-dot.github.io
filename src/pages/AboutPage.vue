@@ -1,11 +1,6 @@
 <template>
-    <div>dsqd
-        sqdqsd
-        qsdqsd
-        qsdqsd
-        qsdqsd
-        qsdqsd
-        <h2>{{ $t('about-us.header2') }}</h2>
+    <div>
+        <h2 class="title-page">{{ $t('about-us.header2') }}</h2>
         <div class="container">
             <article class="card" v-for="employee in this.nbOfEmlpoyee" :key="employee.name">
                 <div class="card-content">
@@ -23,16 +18,13 @@
 </template>
   
 <script lang="ts">
-import { images } from '../store'
+import { images, numberInList } from '../store'
 export default {
     data() {
         return {
-            nbOfEmlpoyee: 3 ,
-            employeesImg: []
+            nbOfEmlpoyee: numberInList.employee,
+            employeesImg: images.employee
         }
-    },
-    mounted() {
-        this.employeesImg = images.employee;
     },
     methods: {
         getText(employeeNumber: number, value: string) {
@@ -46,7 +38,9 @@ export default {
 
 </script>
   
-<style>
+<style lang="scss">
+@import "../style/style.scss";
+
 .container {
     display: block;
 }

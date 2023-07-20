@@ -24,13 +24,5 @@ export default {
 </script>
 
 <style lang="scss">
-#content{
-  margin-top: 3%;
-}
-
-@media screen and (max-width: 768px) {
-  #content{
-  margin-top: 5%;
-}
-}
+@import "./style/style.scss"
 </style>

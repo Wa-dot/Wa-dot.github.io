@@ -25,7 +25,7 @@
 </template>
   
 <script lang='ts'>
-import { images } from '../store'
+import { images, numberInList } from '../store'
 
 export default {
     name: 'Slider',
@@ -36,7 +36,7 @@ export default {
         return {
             currentIndex: 0,
             interval: null,
-            nbOfProducts: 4,
+            nbOfProducts: numberInList.products,
             productsImg: [],
             products: {}
         }

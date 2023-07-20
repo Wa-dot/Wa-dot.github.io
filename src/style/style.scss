@@ -37,3 +37,13 @@ button{
   border: none;
   box-shadow: none;
 }
+
+#content{
+  margin-top: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  #content{
+  margin-top: 5%;
+}
+}

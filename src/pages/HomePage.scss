@@ -1,6 +1,11 @@
 @import "../components/animation/scrollAnimation.scss";
 @import "../style/style.scss";
 
+
+#content{
+  margin-top: 0;
+}
+
 #cover{
     background-image: $bg-cover;
     background-repeat: no-repeat;

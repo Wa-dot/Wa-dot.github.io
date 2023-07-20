@@ -76,10 +76,12 @@ export default {
 }
 </script>
   
-<style scoped>
+<style lang="scss">
+@import "../style/style.scss";
+
 #contact-form {
   max-width: 500px;
-  margin: 0 auto;
+  margin: 5% auto;
 }
 
 #contact-info {
@@ -95,7 +97,7 @@ export default {
   position: fixed;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #4CAF50;
+  background-color: $secondary-color;
   color: white;
   padding: 12px;
   border-radius: 4px;
@@ -116,12 +118,12 @@ label {
 input, textarea {
   width: 100%;
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid $text-area-border-color;
   border-radius: 4px;
 }
 
 button[type=submit], button {
-  background-color: #4CAF50;
+  background-color: $secondary-color;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -130,10 +132,11 @@ button[type=submit], button {
 }
 
 button[type=submit]:hover, button:hover {
-  background-color: #45a049;
+  background-color: $secondary-color;
 }
 .copy{
     cursor: pointer;
+    margin: 7px 0;
 }
 </style>
   
