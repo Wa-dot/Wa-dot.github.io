@@ -14,27 +14,23 @@
 
     <section id="terroir-home">
         <div class="container reveal">
-            <h2 class="home-section-name">Caption</h2>
+            <h2 class="home-section-name">{{ $t("terroir.title") }}</h2>
             <div class="text-container">
                 <div class="text-box">
-                    <h3>Section Text</h3>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                        eius molestiae perferendis eos provident vitae iste.
+                        {{ $t("terroir.intro") }}
                     </p>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section id="terroir-home">
+        <div class="container reveal">
+            <h2 class="home-section-name">{{ $t("histoire.title") }}</h2>
+            <div class="text-container">
                 <div class="text-box">
-                    <h3>Section Text</h3>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                        eius molestiae perferendis eos provident vitae iste.
-                    </p>
-                </div>
-                <div class="text-box">
-                    <h3>Section Text</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                        eius molestiae perferendis eos provident vitae iste.
+                        {{ $t("histoire.intro") }}
                     </p>
                 </div>
             </div>
@@ -43,7 +39,7 @@
 
     <section id="about-us-home">
         <div class="container reveal">
-            <h2 class="home-section-name">Caption</h2>
+            <h2 class="home-section-name">Template qu'on peut utiliser</h2>
             <div class="text-container">
                 <div class="text-box">
                     <h3>Section Text</h3>
@@ -102,6 +98,64 @@ export default {
 </script>
 
 <style lang="scss">
-@import "./HomePage.scss";
+@import "../components/animation/scrollAnimation.scss";
+@import "../style/style.scss";
+
+
+#content {
+    margin-top: 0;
+}
+
+#cover {
+    background-image: $bg-cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font: bold 2.5vw $logo-font;
+    text-shadow: 1px 1px 1px $white;
+    color: $primary-color;
+}
+
+.home-section-name {
+    text-align: center;
+    text-transform: uppercase;
+    color: $primary-color;
+    font-weight: bold;
+    font-size: 3vw;
+    margin-bottom: 1ev;
+}
+
+.text-box {
+    color: $primary-color;
+    font-size: 150%;
+    text-align: justify;
+}
+
+
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .container {
+    margin: 50px;
+}
+
+section .text-container {
+    display: flex;
+}
+
+section .text-container .text-box {
+    margin: 20px;
+    padding: 20px;
+}
+
+section .text-container .text-box h3 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
 </style>
 

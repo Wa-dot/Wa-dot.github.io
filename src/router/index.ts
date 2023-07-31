@@ -45,7 +45,12 @@ const router = createRouter({
     {
       path: '/legalNotice',
       name: 'legalNotice',
-      component: () => import('../pages/legalNoticePage.vue')
+      component: () => import('../pages/LegalNoticePage.vue')
+    },
+    {
+      path: '/terroir',
+      name: 'terroir',
+      component: () => import('../pages/TerroirPage.vue')
     }
   ]
 })

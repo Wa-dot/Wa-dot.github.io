@@ -2,6 +2,7 @@ import { reactive } from "vue";
 
 export const images = reactive({
     products: [
+        '/Laluc/packedBottles.jpg',
         '/bottleWineTest.png',
         '/bottleWineTest.png',
         '/bottleWineTest.png',
@@ -19,6 +20,32 @@ export const images = reactive({
         './twitter.svg',
         './insta.svg',
         './linkedin.svg'],
+
+    vineyard: ['/Laluc/grapevine.JPG',
+        '/Laluc/grapevine2.JPG',
+        '/Laluc/grapevine3.JPG',
+        '/Laluc/grapevine4.JPG',
+        '/Laluc/grapevineInBarrel.JPG',
+        '/Laluc/harvestGrapevine.JPG',
+        '/Laluc/harvestGrapevine2.JPG',
+        '/Laluc/harvestGrapevine3.JPG',
+        '/Laluc/harvesting.jpg',
+        '/Laluc/ladybug.jpg',
+        '/Laluc/newPlant.jpg',
+        '/Laluc/newPlant2.jpg',
+        '/Laluc/newPlant3.jpg',
+        '/Laluc/newPlant4.jpg',
+        '/Laluc/vinePlant.jpg',
+        '/Laluc/vinePlant2.jpg',
+        '/Laluc/vineyard.jpg',
+        '/Laluc/vineyard2.jpg',
+        '/Laluc/wood.jpg'
+
+    ],
+    lalucHouse: [
+        '/Laluc/lalucHouse.jpg',
+        '/Laluc//lalucHouse2.jpg',
+        '/Laluc//lalucHouse3.jpg']
 });
 
 export const information = reactive({

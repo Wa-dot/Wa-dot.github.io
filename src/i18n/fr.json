@@ -100,8 +100,8 @@
         }
     },
     "terroir": {
-        "header": "Notre terroir",
-        "subheader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae",
+        "title": "Notre terroir",
+        "intro": "Blabla l'importance du terroir, blabla bla ca va faire un bon text bla blabla Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae et on continue, blablabla et remettons un peu de Lorem ipsum :     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "terroir1": {
             "name": "Terroir 1",
             "description": "Description du terroir n°1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet porttitor eget dolor morbi non arcu risus quis. Eget duis at tellus at urna condimentum mattis. Eget arcu dictum varius duis. Nisl pretium fusce id velit ut tortor pretium. Donec enim diam vulputate ut. Porta lorem mollis aliquam ut porttitor leo a. Facilisis gravida neque convallis a cras. Turpis nunc eget lorem dolor sed viverra. Sed risus pretium quam vulputate dignissim suspendisse in est ante. Non sodales neque sodales ut etiam sit. Ultrices sagittis orci a scelerisque. Maecenas volutpat blandit aliquam etiam. Tincidunt vitae semper quis lectus. Sit amet volutpat consequat mauris nunc congue nisi vitae suscipit. Gravida in fermentum et sollicitudin ac orci phasellus egestas.",
@@ -123,5 +123,9 @@
                 "alt": "Terroir 3"
             }
         }
+    },
+    "histoire": {
+        "title": "Histoire du champagne ou autre random info",
+        "intro": "Le champagne, également appelé vin de Champagne, est un vin effervescent français protégé par une appellation d'origine contrôlée dont la réglementation a nécessité plusieurs siècles de gestation. Son nom vient de la Champagne, une région du nord-est de la France. La délimitation géographique, les cépages, les rendements et l'ensemble de l'élaboration du champagne sont les principales spécificités de l'appellation. L'origine du mot « champagne » provient de l'ancien terme français « canpayne ». Datant du XIe siècle, ce mot signifie « grande étendue de terrain plat ». Ce sont alors les nombreux champs ouverts sur des plateaux pâles qui ont inspiré le nom que porte la région même de Champagne. Historiquement, dès le Moyen Âge, cette province a commencé par produire des vins tranquilles, non effervescents. Des vins clairs appelés aussi « nature », dont la renommée commence à dépasser leur région d'origine au XVIe siècle, par l'entremise d'un ambassadeur de renom, le roi Henri IV, puis au XVIIe siècle, grâce aux talents de dom Pérignon (1638-1715), un moine cellérier de l'abbaye bénédictine d'Hautvillers, notamment avec l'assemblage de différents crus et le contrôle de la prise de mousse lors de la deuxième fermentation. Le succès de l'appellation est ensuite allé croissant, passant de 8 millions de bouteilles expédiées en 1850, à 28 millions en 1900, 100 millions en 1970, 200 millions en 1986, 300 millions en 20107 et 312 millions en 2015, le marché ayant atteint, 74 milliards d'euros, avec près de la moitié du chiffre d'affaires réalisée à l'export marqué par une forte progression en valeur et en volume. Texte honteusement volé à Wikipédia"
     }
 }

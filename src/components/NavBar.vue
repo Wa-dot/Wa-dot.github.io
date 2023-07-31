@@ -9,10 +9,10 @@
                 <router-link to="/about-us" class="unline-center">{{ $t("nav.about-us") }}</router-link>
             </li>
             <li @click="closeMobileNav()">
-                <router-link to="/contact" class="unline-center">{{ $t("nav.product") }}</router-link>
+                <router-link to="/products" class="unline-center">{{ $t("nav.product") }}</router-link>
             </li>
             <li @click="closeMobileNav()">
-                <router-link to="/contact" class="unline-center">{{ $t("nav.terroir") }}</router-link>
+                <router-link to="/terroir" class="unline-center">{{ $t("nav.terroir") }}</router-link>
             </li>
             <img v-if="$i18n.locale === 'fr'" src="../assets/icon/flags/us.svg" alt="lang fr" class="lang"
                 @click="changeLanguage()">
@@ -66,5 +66,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import './NavB0ar.scss';
+@import './NavBar.scss';
 </style>
