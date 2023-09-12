@@ -68,7 +68,7 @@ export const information = reactive({
 });
 
 export const numberInList = reactive({
-    products: 4,
+    products: 5,
     employee: 3,
     sn: 4,
     terroir: 3,

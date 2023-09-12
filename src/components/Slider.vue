@@ -1,25 +1,25 @@
 <template>
     <div class="carousel">
         <div class="carousel-content">
-            <button class="carousel-button -prev" @click="prev"><svg width="50" height="50">
+            <!-- <button class="carousel-button -prev" @click="prev"><svg width="50" height="50">
                     <circle cx="25" cy="25" r="20" stroke="black" stroke-width="3" fill="none" />
                     <line x1="40" y1="25" x2="10" y2="25" stroke="black" stroke-width="3" />
                     <line x1="20" y1="15" x2="10" y2="25" stroke="black" stroke-width="3" />
                     <line x1="20" y1="35" x2="10" y2="25" stroke="black" stroke-width="3" />
                 </svg>
-            </button>
+            </button> -->
             <div class="carousel-track" ref="track">
                 <div class="carousel-item" v-for="product in  this.nbOfProducts" :key="product.id">
                     <img :src=this.productsImg[product] v-bind:alt=$t(this.getTextAlt(product)) class="carouselPicture">
                     <h3 class="products-title">{{ $t(this.getText(product, '.name')) }}</h3>
                 </div>
             </div>
-            <button class="carousel-button -next" @click="next"><svg width="50" height="50">
+            <!-- <button class="carousel-button -next" @click="next"><svg width="50" height="50">
                     <circle cx="25" cy="25" r="20" stroke="black" stroke-width="3" fill="none" />
                     <line x1="10" y1="25" x2="40" y2="25" stroke="black" stroke-width="3" />
                     <line x1="30" y1="15" x2="40" y2="25" stroke="black" stroke-width="3" />
                     <line x1="30" y1="35" x2="40" y2="25" stroke="black" stroke-width="3" />
-                </svg></button>
+                </svg></button> -->
         </div>
     </div>
 </template>
@@ -79,8 +79,45 @@ export default {
     }
 }
 </script>
-  
+
 <style lang="scss">
-@import "./Slider.scss";
+@import "../style/style.scss";
+
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+}
+
+
+.carousel-content {
+    display: absolute;
+    margin: 0% 15% 0% 15%;
+    display: flex;
+
+}
+
+.carousel-track {
+    display: inline-flex;
+    transition: transform 0.5s ease-in-out;
+    width: fit-content;
+}
+
+.carousel-item {
+    width: 20%;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.carouselPicture {
+    width: 100%;
+    height: auto;
+}
+
+.products-title {
+    text-align: center;
+
+}
 </style>
-  ../store

@@ -63,45 +63,58 @@
         "header": "Nos produits",
         "subheader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae",
         "product1": {
-            "name": "Ca c'est 1",
-            "description": "Description du produit n°1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet porttitor eget dolor morbi non arcu risus quis. Eget duis at tellus at urna condimentum mattis. Eget arcu dictum varius duis. Nisl pretium fusce id velit ut tortor pretium. Donec enim diam vulputate ut. Porta lorem mollis aliquam ut porttitor leo a. Facilisis gravida neque convallis a cras. Turpis nunc eget lorem dolor sed viverra. Sed risus pretium quam vulputate dignissim suspendisse in est ante. Non sodales neque sodales ut etiam sit. Ultrices sagittis orci a scelerisque. Maecenas volutpat blandit aliquam etiam. Tincidunt vitae semper quis lectus. Sit amet volutpat consequat mauris nunc congue nisi vitae suscipit. Gravida in fermentum et sollicitudin ac orci phasellus egestas.",
+            "name": "Champagne Brut",
+            "subtitle": "La simplicité",
+            "description": "Par un fin alliage de 60% de Pinot Meunier, 30% de Pinot Noir et 10% de Chardonnay, ce champagne accessible par ses saveurs, étonne par l'infinie possibilité d'accords. Il est composé de 57% de vins de réserves, lui donnant une constance unique au travers les années. Par son fruité, il ne décevra jamais vos apéritifs, comme vos viandes et poissons. À déguster frais au bord d'une piscine comme d'un feu de cheminée, il est synonyme de fête et d'insouciance ! Il existe aussi en format demi-bouteille pour les plaisirs solos, en Magnum ou Jéroboam pour ceux qui voient les choses en grand !",
             "category": "Champagne",
             "img": {
                 "src": "/bottleineTest.jpg",
-                "alt": "Produit 1 coucou"
+                "alt": "Image Champagne Brut"
             }
         },
         "product2": {
-            "name": "Produit 2",
-            "description": "Description du produit n°2 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet porttitor eget dolor morbi non arcu risus quis. Eget duis at tellus at urna condimentum mattis. Eget arcu dictum varius duis. Nisl pretium fusce id velit ut tortor pretium. Donec enim diam vulputate ut. Porta lorem mollis aliquam ut porttitor leo a. Facilisis gravida neque convallis a cras. Turpis nunc eget lorem dolor sed viverra. Sed risus pretium quam vulputate dignissim suspendisse in est ante. Non sodales neque sodales ut etiam sit. Ultrices sagittis orci a scelerisque. Maecenas volutpat blandit aliquam etiam. Tincidunt vitae semper quis lectus. Sit amet volutpat consequat mauris nunc congue nisi vitae suscipit. Gravida in fermentum et sollicitudin ac orci phasellus egestas.",
-            "category": "Vin",
+            "name": "Champagne Rosé",
+            "subtitle": "La douceur ouverte à tous",
+            "description": "L'assemblage y est réalisé avec 50% de vin de réserve apporté par 44% de Pinot Noir, 36 % de Pinot Meunier et 20 % de Chardonnay. Corsée, la teinte de sa robe est d'une intensité saumon. Au nez, des notes de figues, de prunes rouges et de fraises des bois amènent le palais à gagner en vivacité avec une fluidité équilibrée et des touches de confiserie. Malgré sa douceur, il reste affectionné et accessible à tous. Il s'accorde aussi bien avec vos desserts les plus sophistiqués qu'avec un simple fondant au chocolat, pour finir vos déjeuners et dîners de la plus belle des manières. ",
+            "category": "Champagne",
             "img": {
                 "src": "/bottleineTest.jpg",
-                "alt": "Produit 2"
+                "alt": "Image Champagne Rosé"
             }
         },
         "product3": {
-            "name": "Produit 3",
-            "description": "Description du produit n°3 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet porttitor eget dolor morbi non arcu risus quis. Eget duis at tellus at urna condimentum mattis. Eget arcu dictum varius duis. Nisl pretium fusce id velit ut tortor pretium. Donec enim diam vulputate ut. Porta lorem mollis aliquam ut porttitor leo a. Facilisis gravida neque convallis a cras. Turpis nunc eget lorem dolor sed viverra. Sed risus pretium quam vulputate dignissim suspendisse in est ante. Non sodales neque sodales ut etiam sit. Ultrices sagittis orci a scelerisque. Maecenas volutpat blandit aliquam etiam. Tincidunt vitae semper quis lectus. Sit amet volutpat consequat mauris nunc congue nisi vitae suscipit. Gravida in fermentum et sollicitudin ac orci phasellus egestas.",
-            "category": "Crément",
+            "name": "Champagne Cuvée réserve",
+            "subtitle": "L'équilibre parfait",
+            "description": "Il vous surprendra par, l'élégance de ces bulles et son ton voluptueux. Le nez ressent la brioche puis les arômes d'agrumes, de citrons verts et de verveine tout en subtilité. La finesse gustative commence par un côté pâtissier de pain aux raisins pour se poursuivre avec des notes de grenade et de mirabelle. Il est composé à 39 % de Pinot Noir, 20 % de Pinot Meunier et 41 % de Chardonnay, et fais ressortir les plus de 10 millions de bulles présentes dans une bouteille de champagne avec une vigueur inégalée. Ce champagne est l'équilibre parfait entre élégance et festivités, et ponctue vos soirées d'été de la plus belle des manières.",
+            "category": "Champagne",
             "img": {
                 "src": "/bottleineTest.jpg",
-                "alt": "Produit 3"
+                "alt": "Image Champagne Cuvée réserve"
             }
         },
         "product4": {
-            "name": "Produit 4",
-            "description": "Description du produit n°4 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet porttitor eget dolor morbi non arcu risus quis. Eget duis at tellus at urna condimentum mattis. Eget arcu dictum varius duis. Nisl pretium fusce id velit ut tortor pretium. Donec enim diam vulputate ut. Porta lorem mollis aliquam ut porttitor leo a. Facilisis gravida neque convallis a cras. Turpis nunc eget lorem dolor sed viverra. Sed risus pretium quam vulputate dignissim suspendisse in est ante. Non sodales neque sodales ut etiam sit. Ultrices sagittis orci a scelerisque. Maecenas volutpat blandit aliquam etiam. Tincidunt vitae semper quis lectus. Sit amet volutpat consequat mauris nunc congue nisi vitae suscipit. Gravida in fermentum et sollicitudin ac orci phasellus egestas.",
-            "category": "Vodka",
+            "name": "Champagne Cuvée Eveillescence",
+            "subtitle": "Le champagne des fins gourmets",
+            "description": "Composé à 100% de Pinot Meunier, il est le champagne des grands amateurs de Champagne. Avec lui, vous ressentirez véritablement le sol calcaire et les teintes minérales apportées par le soleil sur nos vignes. Ce monocépage est d'un goût et d'une subtilité unique où s'expriment des notes de viennoiserie comme la frangipane puis de fruits tels que l'abricot et le brugnon. En bouche, les épices s'accordent et s'équilibrent en apportant du relief. Dessiné et pensé en famille, il est conçu pour se suffire à lui-même, mais se mêlera parfaitement avec vos mets les plus raffinés. ",
+            "category": "Champagne",
             "img": {
                 "src": "/bottleineTest.jpg",
-                "alt": "Produit 4"
+                "alt": "Image Champagne Cuvée Eveillescence"
+            }
+        },
+        "product5": {
+            "name": "Ratafia",
+            "description": "Go la clem, go !",
+            "category": "Vin",
+            "img": {
+                "src": "/bottleineTest.jpg",
+                "alt": "Image Ratafia"
             }
         }
     },
     "terroir": {
         "title": "Notre terroir",
-        "intro": "Blabla l'importance du terroir, blabla bla ca va faire un bon text bla blabla Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae et on continue, blablabla et remettons un peu de Lorem ipsum :     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "intro": "Située sur un joli mont dans la marne au nord de Reims, appartenant à l'aire de l'appellation du champagne et au massif de Saint Thierry, la maison familiale Xavier LALUC vous invite à découvrir son monde de saveurs.",
         "terroir1": {
             "name": "Terroir 1",
             "description": "Description du terroir n°1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet porttitor eget dolor morbi non arcu risus quis. Eget duis at tellus at urna condimentum mattis. Eget arcu dictum varius duis. Nisl pretium fusce id velit ut tortor pretium. Donec enim diam vulputate ut. Porta lorem mollis aliquam ut porttitor leo a. Facilisis gravida neque convallis a cras. Turpis nunc eget lorem dolor sed viverra. Sed risus pretium quam vulputate dignissim suspendisse in est ante. Non sodales neque sodales ut etiam sit. Ultrices sagittis orci a scelerisque. Maecenas volutpat blandit aliquam etiam. Tincidunt vitae semper quis lectus. Sit amet volutpat consequat mauris nunc congue nisi vitae suscipit. Gravida in fermentum et sollicitudin ac orci phasellus egestas.",
@@ -125,7 +138,7 @@
         }
     },
     "histoire": {
-        "title": "Histoire du champagne ou autre random info",
-        "intro": "Le champagne, également appelé vin de Champagne, est un vin effervescent français protégé par une appellation d'origine contrôlée dont la réglementation a nécessité plusieurs siècles de gestation. Son nom vient de la Champagne, une région du nord-est de la France. La délimitation géographique, les cépages, les rendements et l'ensemble de l'élaboration du champagne sont les principales spécificités de l'appellation. L'origine du mot « champagne » provient de l'ancien terme français « canpayne ». Datant du XIe siècle, ce mot signifie « grande étendue de terrain plat ». Ce sont alors les nombreux champs ouverts sur des plateaux pâles qui ont inspiré le nom que porte la région même de Champagne. Historiquement, dès le Moyen Âge, cette province a commencé par produire des vins tranquilles, non effervescents. Des vins clairs appelés aussi « nature », dont la renommée commence à dépasser leur région d'origine au XVIe siècle, par l'entremise d'un ambassadeur de renom, le roi Henri IV, puis au XVIIe siècle, grâce aux talents de dom Pérignon (1638-1715), un moine cellérier de l'abbaye bénédictine d'Hautvillers, notamment avec l'assemblage de différents crus et le contrôle de la prise de mousse lors de la deuxième fermentation. Le succès de l'appellation est ensuite allé croissant, passant de 8 millions de bouteilles expédiées en 1850, à 28 millions en 1900, 100 millions en 1970, 200 millions en 1986, 300 millions en 20107 et 312 millions en 2015, le marché ayant atteint, 74 milliards d'euros, avec près de la moitié du chiffre d'affaires réalisée à l'export marqué par une forte progression en valeur et en volume. Texte honteusement volé à Wikipédia"
+        "title": "Qui sommes nous ?",
+        "intro": "Vigneron propriétaire, récoltant coopérateur depuis 3 générations, nous apportons toute notre attention aux parcelles issues de nombreuses transmissions remontant à des origines connues depuis 1670. Certaines de ces terres se sont trouvées être propices à la culture de la vigne de par leurs sous-sols à tendance calcaire et sablonneux-calcaire, leurs pentes orientées sud-est et leur bel ensoleillement. Ces 3 éléments réunis apportent aux vins un développement de qualité avec une touche de fraîcheur. Ainsi, suite à l'utilisation de porte-greffe éloignant la maladie du phylloxera, les replantations de vigne dans la famille ont eu lieu dès 1956. Chaque année, si les soins débutent dès la taille de la vigne en hiver, ils ne finissent que par la vendange à la main. C'est pourquoi Xavier aime à dire à ses 3 enfants, Clémence, Héloïse et Pierre-Baptiste « Le végétal nous parle ». Attentifs à l'environnement dans lequel nous évoluons depuis de nombreuses années, nous récupérons les eaux de pluie, travaillons le sol et enherbons nos vignes. De cette manière, nous tentons de limiter autant que possible les intrants et de réduire à notre échelle le Co2. L'exploitation est certifiée VDC : viticulture durable en Champagne."
     }
 }
