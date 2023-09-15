@@ -1,6 +1,5 @@
 <template>
     <div>
-        <h2 class="title-page">{{ $t('about-us.header2') }}</h2>
         <div class="container">
             <article class="card" v-for="employee in this.nbOfEmlpoyee" :key="employee.name">
                 <div class="card-content">

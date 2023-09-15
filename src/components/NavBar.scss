@@ -93,15 +93,8 @@ ul.dropdown-menu a {
     cursor: pointer;
 }
 
-/* Tablet */
-@media screen and (max-width: 1024px) {
-    ul.nav-links {
-        width: 50%;
-    }
-}
-
 /* Mobile */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1029px) {
 
     ul.nav-links {
         position: absolute;

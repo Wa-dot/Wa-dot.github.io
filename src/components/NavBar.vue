@@ -15,7 +15,7 @@
                 <router-link to="/terroir" class="unline-center">{{ $t("nav.terroir") }}</router-link>
             </li>
             <li @click="closeMobileNav()">
-                <router-link to="/recettes" class="unline-center">{{ $t("nav.receipe") }}</router-link>
+                <router-link to="/recipes" class="unline-center">{{ $t("nav.recipes") }}</router-link>
             </li>
             <img v-if="$i18n.locale === 'fr'" src="../assets/icon/flags/us.svg" alt="lang fr" class="lang"
                 @click="changeLanguage()">
