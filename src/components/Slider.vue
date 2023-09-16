@@ -10,8 +10,10 @@
             </button> -->
             <div class="carousel-track" ref="track">
                 <div class="carousel-item" v-for="product in  this.nbOfProducts" :key="product.id">
+                    <router-link :to="`/products/` + product" class="btn">
                     <img :src=this.productsImg[product] v-bind:alt=$t(this.getTextAlt(product)) class="carouselPicture">
                     <h3 class="products-title">{{ $t(this.getText(product, '.name')) }}</h3>
+                </router-link>
                 </div>
             </div>
             <!-- <button class="carousel-button -next" @click="next"><svg width="50" height="50">

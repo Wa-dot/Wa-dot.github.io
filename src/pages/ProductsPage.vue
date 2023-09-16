@@ -2,16 +2,17 @@
     <div>
         <div class="container">
             <article class="card" v-for="products in (this.nbOfProducts)" :key="products.name">
-                <div class="card-content">
+                <div class="card-content" :ref="products">
                     <img v-if="(products % 2) == 1" :src=this.productsImg[products] v-bind:alt=$t(this.getTextAlt(products))
                         class="profile-image-left">
-                    <div v-if="!rightPosition" class="profile-info" :style="((products % 2) == 0) ? { 'text-align': 'right' } : { 'text-align': 'left' }">
+                    <div v-if="!rightPosition" class="profile-info"
+                        :style="((products % 2) == 0) ? { 'text-align': 'right' } : { 'text-align': 'left' }">
                         <h3>{{ $t(this.getText(products, '.name')) }} : {{ $t(this.getText(products, '.subtitle')) }}</h3>
                         <p class="category">{{ $t(this.getText(products, '.category')) }}</p>
                         <img :src=this.productsImg[products] v-bind:alt=$t(this.getTextAlt(products)) class="little-media">
                         <p class="description">{{ $t(this.getText(products, '.description')) }}</p>
                     </div>
-                    <div v-else class="profile-info" :style="{'text-align': 'left'}"> 
+                    <div v-else class="profile-info" :style="{ 'text-align': 'left' }">
                         <h3>{{ $t(this.getText(products, '.name')) }} : {{ $t(this.getText(products, '.subtitle')) }}</h3>
                         <p class="category">{{ $t(this.getText(products, '.category')) }}</p>
                         <img :src=this.productsImg[products] v-bind:alt=$t(this.getTextAlt(products)) class="little-media">
@@ -44,10 +45,22 @@ export default {
         },
         getTextAlt(productsNumber: number) {
             return 'products.product' + String(productsNumber) + '.alt';
+        },
+        scrollToProduct() {
+            const productId = this.$route.params.id;
+            if (productId) {
+                this.$nextTick(() => {
+                    this.$refs[`${productId}`][0].scrollIntoView(!this.rightPosition, {behavior: 'smooth' });
+                });
+            }
         }
     },
-    mounted(){
-        (this.windowWidth < 830) ? {rightPosition: false}:{rightPosition: true};
+    watch: {
+        '$route.params.id': 'scrollToProduct'
+    },
+    mounted() {
+        (this.windowWidth < 830) ? { rightPosition: false } : { rightPosition: true };
+        this.scrollToProduct();
     }
 
 }

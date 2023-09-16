@@ -148,6 +148,7 @@ section .text-container {
 
 section .text-container .text-box {
     margin: 20px;
+    padding: 20px;
 }
 
 section .text-container .text-box h3 {
