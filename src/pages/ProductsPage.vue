@@ -1,29 +1,24 @@
 <template>
-    <div>
-        <div class="container">
-            <article class="card" v-for="products in (this.nbOfProducts)" :key="products.name">
-                <div class="card-content" :ref="products">
-                    <img v-if="(products % 2) == 1" :src=this.productsImg[products] v-bind:alt=$t(this.getTextAlt(products))
-                        class="profile-image-left">
-                    <div v-if="!rightPosition" class="profile-info"
-                        :style="((products % 2) == 0) ? { 'text-align': 'right' } : { 'text-align': 'left' }">
-                        <h3>{{ $t(this.getText(products, '.name')) }} : {{ $t(this.getText(products, '.subtitle')) }}</h3>
-                        <p class="category">{{ $t(this.getText(products, '.category')) }}</p>
-                        <img :src=this.productsImg[products] v-bind:alt=$t(this.getTextAlt(products)) class="little-media">
-                        <p class="description">{{ $t(this.getText(products, '.description')) }}</p>
-                    </div>
-                    <div v-else class="profile-info" :style="{ 'text-align': 'left' }">
-                        <h3>{{ $t(this.getText(products, '.name')) }} : {{ $t(this.getText(products, '.subtitle')) }}</h3>
-                        <p class="category">{{ $t(this.getText(products, '.category')) }}</p>
-                        <img :src=this.productsImg[products] v-bind:alt=$t(this.getTextAlt(products)) class="little-media">
-                        <p class="description">{{ $t(this.getText(products, '.description')) }}</p>
-                    </div>
-
-                    <img v-if="(products % 2 == 0)" :src=this.productsImg[products] v-bind:alt=$t(this.getTextAlt(products))
-                        class="profile-image-right">
+    <div class="container">
+        <h1 class="title">
+            {{ $t("products.header") }}
+        </h1>
+        <article class="card" v-for="products in nbOfProducts" :key="products">
+            <div class="card-content">
+                <img v-if="(products % 2) == 1" :src=productsImg[products] v-bind:alt=$t(getTextAlt(products))
+                    class="profile-image-left">
+                <div class="profile-info"
+                    :style="((products % 2) == 0) ? { 'text-align': 'right' } : { 'text-align': 'left' }">
+                    <h3 :style="((products % 2) == 0) ? { 'text-align': 'right' } : { 'text-align': 'left' }">{{
+                        $t(getText(products, '.name')) }} : {{ $t(getText(products, '.subtitle')) }}</h3>
+                    <p class="category">{{ $t(getText(products, '.category')) }}</p>
+                    <img :src=productsImg[products] v-bind:alt=$t(getTextAlt(products)) class="little-media">
+                    <p class="description">{{ $t(getText(products, '.description')) }}</p>
                 </div>
-            </article>
-        </div>
+                <img v-if="(products % 2 == 0)" :src=productsImg[products] v-bind:alt=$t(getTextAlt(products))
+                    class="profile-image-right">
+            </div>
+        </article>
     </div>
 </template>
   
@@ -35,7 +30,8 @@ export default {
             nbOfProducts: numberInList.products,
             productsImg: images.products,
             windowWidth: window.innerWidth,
-            rightPosition: true
+            rightPosition: true,
+            productId: [] as string | string[]
 
         }
     },
@@ -45,22 +41,10 @@ export default {
         },
         getTextAlt(productsNumber: number) {
             return 'products.product' + String(productsNumber) + '.alt';
-        },
-        scrollToProduct() {
-            const productId = this.$route.params.id;
-            if (productId) {
-                this.$nextTick(() => {
-                    this.$refs[`${productId}`][0].scrollIntoView(!this.rightPosition, {behavior: 'smooth' });
-                });
-            }
         }
     },
-    watch: {
-        '$route.params.id': 'scrollToProduct'
-    },
     mounted() {
-        (this.windowWidth < 830) ? { rightPosition: false } : { rightPosition: true };
-        this.scrollToProduct();
+        this.productId = 'product' + this.$route.params.id;
     }
 
 }
@@ -74,19 +58,7 @@ export default {
     display: none;
 }
 
-.container {
-    padding-top: 15px;
-    display: block;
-    text-align: left;
-}
 
-.card {
-    margin: 5% 15% 15px 15%;
-}
-
-.card-content {
-    display: flex;
-}
 
 .profile-image-right {
     margin-left: 20px;
@@ -106,7 +78,7 @@ export default {
     text-align: justify;
 }
 
-@media (max-width: 799px) {
+@media (max-width: 999px) {
     .card-content {
         padding: 20px 5px 20px 5px;
         text-align: center;

@@ -36,59 +36,30 @@
             </div>
         </div>
     </section>
-
-    <section id="about-us-home">
-        <div class="container reveal">
-            <h2 class="home-section-name">Template qu'on peut utiliser</h2>
-            <div class="text-container">
-                <div class="text-box">
-                    <h3>Section Text</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                        eius molestiae perferendis eos provident vitae iste.
-                    </p>
-                </div>
-                <div class="text-box">
-                    <h3>Section Text</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                        eius molestiae perferendis eos provident vitae iste.
-                    </p>
-                </div>
-                <div class="text-box">
-                    <h3>Section Text</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                        eius molestiae perferendis eos provident vitae iste.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
 </template>
 
 <script lang="ts">
 import Slider from '../components/Slider.vue'
 
 
-function reveal() {
-    var reveals = document.querySelectorAll(".reveal");
+            function reveal() {
+                var reveals = document.querySelectorAll(".reveal");
 
-    for (var i = 0; i < reveals.length; i++) {
-        var windowHeight = window.innerHeight;
-        var elementTop = reveals[i].getBoundingClientRect().top;
-        var elementVisible = 150;
+                for (var i = 0; i < reveals.length; i++) {
+                    var windowHeight = window.innerHeight;
+                    var elementTop = reveals[i].getBoundingClientRect().top;
+                                        var elementVisible = 150;
 
-        if ((elementTop < windowHeight - elementVisible)||(elementTop > windowHeight - elementVisible)) {
-            reveals[i].classList.add("active");
-        } else {
-            reveals[i].classList.remove("active");
-        }
-    }
-}
+                    if ((elementTop < windowHeight - elementVisible)||(elementTop > windowHeight - elementVisible)) {
+                        reveals[i].classList.add("active");
+                    } else {
+                        reveals[i].classList.remove("active");
+                                            }
+                }
+            }
 
-window.addEventListener("scroll", reveal);
-
+            window.addEventListener("scroll", reveal);
+        
 export default {
 
     components: {
@@ -110,9 +81,9 @@ export default {
     background-image: $bg-cover;
     background-repeat: no-repeat;
     background-size: cover;
-    font: bold 2.5vw $logo-font;
-    text-shadow: 1px 1px 1px $white;
-    color: $primary-color;
+    font: 3vw $logo-font;
+    color: $white;
+    text-shadow: 5px 5px 10px $black;
 }
 
 .home-section-name {

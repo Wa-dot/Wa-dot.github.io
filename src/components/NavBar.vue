@@ -1,7 +1,7 @@
 <template>
     <nav>
         <div id="logo">
-            <router-link to="/"><img src='/logo.svg' alt="logo" />{{ $t('nav.name') }}</router-link>
+            <router-link to="/"><img src='/logo.svg' alt="logo" /><div id="txtLogo">{{ $t('nav.name') }}</div></router-link>
         </div>
 
         <ul class="nav-links">
@@ -38,22 +38,8 @@ export default {
         openMobileNav() {
             const burger = document.getElementById('burger')!
             const nav = document.querySelector('.nav-links')!
-            const navLinks = document.querySelectorAll('.nav-links li')!
-
             nav.classList.toggle('nav-active')
             burger.classList.toggle('toggle')
-
-            // Animate navigation links
-            navLinks.forEach((link, index) => {
-                if (link.style.animation || link.style.webkitAnimation) {
-                    link.style.animation = ''
-                    link.style.webkitAnimation = ''
-                } else {
-                    link.style.webkitAnimation = `navLinkFade 0.5s ease forwards ${index / 7
-                        }s`
-                    link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7}s`
-                }
-            })
         },
         closeMobileNav() {
             const burger = document.getElementById('burger')!

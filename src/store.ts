@@ -45,7 +45,9 @@ export const images = reactive({
     lalucHouse: [
         '/Laluc/lalucHouse.jpg',
         '/Laluc//lalucHouse2.jpg',
-        '/Laluc//lalucHouse3.jpg']
+        '/Laluc//lalucHouse3.jpg'
+    ],
+    homePage: ['/Laluc/frontPage.jpg']
 });
 
 export const information = reactive({
@@ -61,7 +63,7 @@ export const information = reactive({
         postalCode: '12000',
         country: 'France',
         phone: '+1234567890',
-        email: 'exemple@gmail.com',
+        email: 'cxlaluc@orange.fr',
         facebook: 'https://www.facebook.com/',
         instagram: 'https://www.instagram.com/'
     },

@@ -1,6 +1,4 @@
 <template>
-  <head>
-  </head>
   <div id="app">
     <Navbar />
   </div>
@@ -11,8 +9,9 @@
 </template>
 
 <script lang="ts">
-import Navbar from './components/Navbar.vue'
-import FootBar from './components/FootBar.vue'
+import FootBar from './components/FootBar.vue';
+import Navbar from './components/NavBar.vue';
+import { useI18n } from 'vue-i18n';
 
 export default {
   name: 'App',
@@ -20,6 +19,11 @@ export default {
     Navbar,
     FootBar
   },
+  setup() {
+    // use global scope
+    const { t, locale } = useI18n();
+    return { t, locale }
+  }
 }
 </script>
 

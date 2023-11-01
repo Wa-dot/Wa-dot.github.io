@@ -12,10 +12,12 @@
         "lang": "fr"
     },
     "home": {
-        "header": "Bienvenue dans la propriété Xavier Laluc",
-        "subheader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae"
+        "header": "Bienvenue au Champagne Xavier Laluc",
+        "subheader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae",
+        "allRightReserved": "Tous droits réservés"
     },
     "contact": {
+        "company": "Xavier Laluc",
         "contactUs": "Contactez-nous",
         "name": "Nom",
         "email": "Email",
@@ -29,11 +31,64 @@
     },
     "CGU": {
         "title": "Conditions générales d'utilisation",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae"
+        "made-by": "Site édité par : ",
+        "made-by-name": {
+            "name": "Monsieur Wandrille GUIRAUD",
+            "publication-director": "Monsieur Xavier LALUC."
+        },
+        "contact": {
+            "reasons": "Pour toute question relative au site et toute réclamations"
+        },
+        "hosting": {
+            "company": "L’hébergement de ce Site (ci-après défini) est réalisé par la société …"
+        },
+        "terms-of-use": {
+            "text": "Les présentes mentions régissent la navigation sur le site www.champagne-xavier-laluc.com (« le Site ») de tout internaute se connectant aux Sites (« l’Utilisateur »). En utilisant le Site, l’Utilisateur reconnaît avoir lu et accepté sans réserve les présentes Conditions Générales d’Utilisation (« les CGU») qui régissent les conditions d’accès, de navigation et d'utilisation du site. Nous nous réservons le droit de modifier et/ou mettre à jour les présentes Conditions Générales d’Utilisation en publiant une nouvelle version sur notre Site. Nous vous invitons donc à les consulter régulièrement."
+        }
     },
     "legalNotice": {
         "title": "Mentions légales",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae"
+        "header": {
+            "header1": "L’entreprise individuelle Champagne Xavier LALUC, situé au 4 rue de bellevue à BRIMONT (51220), numéro SIRET 388 610 248 00014 (ci-après le “Champagne Xavier LALUC”) a pour objet la vente et le commerce de Champagne et de produits issus de la viticulture, ainsi que le travail de la vigne.",
+            "header2": "La Champagne Xavier LALUC est une entreprise familiale qui travaille la vigne et réalise la commercialisation d’alcool d’un degré inférieur à 18°, notamment les quatres cuvées de Champagne qu’elle a développées.",
+            "header3": "Ces CGU complètent évidemment les Conditions Générales de Ventes applicables suivant souscription de l’Application à l’abonnement. Vous pouvez les consulter ici."
+        },
+        "article1": {
+            "header": "ARTICLE 1 - Champ d'application et consentement de l’Utilisateur",
+            "content": "Ces Conditions Générales d’Utilisation contiennent les informations relatives à l’utilisation du Site internet par un Utilisateur. Les présentes CGU s'appliquent, sans restriction ni réserve, à toute consultation du présent Site internet par les Utilisateurs. Le site a pour objet de présenter le Champagne Xavier LALUC, ainsi que les différents produits proposés à la vente (Ci-après, les “Produits”). Ces CGU sont accessibles à tout moment sur le Site internet et prévaudront, le cas échéant, sur toute autre version ou tout autre document contradictoire."
+        },
+        "article2": {
+            "header": "ARTICLE 2 – Accès au Site et description du Site proposés par le Champagne Xavier LALUC",
+            "content": {
+                "access-conditions": {
+                    "title": "2.1 – Conditions d’accès du Site",
+                    "text": "Pour l’accès au site, l’Utilisateur reconnaît avoir atteint l'âge minimum légalement requis de consommation et/ou d’achat d’alcool selon la législation en vigueur dans son lieu de résidence (l'âge le plus élevé étant celui pris en considération). Si aucun âge légal existe dans son lieu de résidence, l’Utilisateur reconnaît avoir plus de 18 ans lorsqu’il accède au Site.  Pour cela, l’Utilisateur doit indiquer son année de naissance à chaque entrée sur le Site et certifie qu’il dispose de l'âge légal. Une fois l'âge légal certifié, pour accéder au Site, l’Utilisateur devra procéder de la manière suivante : A défaut d'âge minimum légal certifié, l’Utilisateurs se verra refuser l’accès au Site conformément aux dispositions de l’article 3323-5  du code de la santé publique."
+                },
+                "site-description": {
+                    "title": "2.2 – Description du Site proposés par le Champagne Xavier LALUC",
+                    "text": "Le Site a pour objet la présentation des produits viticoles et des boissons alcoolisées produites par le Champagne Xavier LALUC. A ce titre, suivant inscription de l’Utilisateur, l’Utilisateur aura accès aux informations suivantes : Dans la rubrique « Produit », l’Utilisateur aura accès aux informations relatives aux quatres cuvées de Champagne produites et développés par le Champagne XAvier LALUC, ainsi que des produits dérivés issus de la culture de la vigne ; Dans la rubrique “ About-us “, l’Utilisateur aura accès aux divers événements qui ont lieu tout au long de l’année au Champagne Xavier LALUC. L’Utilisateur aura également la possibilité de consulter un plan, ainsi que les coordonnées et contacts par lequel joindre le Champagne Xavier LALUC."
+                }
+            }
+        },
+        "article3": {
+            "header": "ARTICLE 3 – Droit à l’image et droit de propriété intellectuelle",
+            "content": "Conformément au droit à l’image posé à l’article 9 du Code civil, le champagne Xavier LALUC confirme que les images utilisées comportant des individus identifiables ont été publiées avec le consentement de ces individus. Par ailleurs le Champagne Xavier LALUC affirme être propriétaire de l'ensemble des éléments de communications ainsi que de l’ensemble des photos utilisés sur le Site. Il exclut toute utilisation sans son autorisation expresse, écrite et préalable donnée par le Champagne Xavier LALUC. Le Champagne Xavier LALUC reste propriétaire de tous les droits de propriété intellectuelle, et plus particulièrement, sans que cette liste ne soit limitative, sur le code, les articles, images, photos, textes etc. Il exclut toute utilisation sans son autorisation expresse, écrite et préalable donnée par le Champagne Xavier LALUC. En cas de violation de cette interdiction, le Champagne Xavier LALUC se réserve le droit de demander des dommages et intérêts à l’Utilisateur."
+        },
+        "article4": {
+            "header": "ARTICLE 4 – Exclusion de responsabilité",
+            "content": {
+                "intro": "Le Champagne Xavier LALUC ne saurait être tenu responsable en cas de problème d’accès aux Site de l’Application et plus particulièrement dans l’hypothèse, qui relèvent d’un cas de force majeure, d’indisponibilité du Site du fait de la survenance d’un des évènements suivants :",
+                "events": {
+                    "1": "Survenance d'un bug sur le back-end du Site ou sur le Site lui-même indépendante de la volonté de la Société ;",
+                    "2": "Problème du serveur hébergeant le Site, ledit serveur ne faisant l’objet d’aucun contrôle par le Champagne Xavier LALUC ;",
+                    "3": "Problème avec le DNS/CDN (Domain Name System, Content Distribution Network)."
+                }
+            }
+        },
+        "article5": {
+            "header": "ARTICLE 5 - Données personnelles",
+            "content": "Aucune données personnelles n’est collectée par le Champagne Xavier LALUC. Aucun cookie n’est utilisé par le Champagne Xavier LALUC. Pour toute réclamation relative à la protection des données personnelles contactez : "
+        }
     },
     "about-us": {
         "header": "A propos de nous",
