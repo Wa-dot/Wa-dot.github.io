@@ -1,22 +1,190 @@
 {
-    "general": {
-        "title": "My web site",
-        "description": "This is a website"
-    },
     "nav": {
         "name": "Laluc",
         "about-us": "About us",
-        "product": "Our product",
-        "terroir": "Our soil",
+        "product": "Our products",
+        "terroir": "Our terroir",
+        "recipes": "Recipes",
         "lang": "en"
     },
     "home": {
-        "header": "Welcome sur loremipsum",
-        "subheader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae"
-        
+        "header": "Welcome to Champagne Xavier Laluc",
+        "allRightReserved": "All right reserved"
+    },
+    "contact": {
+        "company": "Xavier Laluc",
+        "contactUs": "Contact us",
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "send": "Send",
+        "object": "Objet",
+        "tel": "Phone",
+        "callUs": "Call us",
+        "address": "Adress",
+        "popUp": "Copy to clipboard"
+    },
+    "CGU": {
+        "title": "General terms of use",
+        "made-by": "Website made by : ",
+        "made-by-name": {
+            "name": "Wandrille GUIRAUD",
+            "publication-director": "Xavier LALUC."
+        },
+        "contact": {
+            "reasons": "For any request, please contact us at : "
+        },
+        "hosting": {
+            "company": "The hosting of this website is provided by : "
+        },
+        "terms-of-use": {
+            "text": ""
+        }
+    },
+    "legalNotice": {
+        "title": "Mentions légales",
+        "header": {
+            "header1": "The present disclaimer governs the browsing of the www.champagne-xavier-laluc.com website ('the Site') by all Internet users connecting to the Sites ('the User'). By using the Site, the User acknowledges having read and accepted without reservation the present General Terms of Use ('the GTU'), which govern the conditions of access, browsing and use of the Site. We reserve the right to modify and/or update these Terms of Use by publishing a new version on our Site. We therefore invite you to consult them regularly."
+        },
+        "article1": {
+            "header": "Article 1 - Scope and consent of the User",
+            "content": "These General Terms of Use contain information relating to the use of the Website by a User. These GCU apply, without restriction or reservation, to any consultation of this Website by Users. The purpose of the site is to present Champagne Xavier LALUC, as well as the various products offered for sale (hereinafter, the 'Products'). These GCU are accessible at any time on the Website and will prevail, if necessary, over any other version or any other contradictory document."
+        },
+        "article2": {
+            "header": "ARTICLE 2 – Access to and description of the Site proposed by Champagne Xavier LALUC",
+            "content": {
+                "access-conditions": {
+                    "title": "2.1 - Site access conditions",
+                    "text": "In order to access the Site, the User acknowledges that he/she has reached the legally required minimum age for the consumption and/or purchase of alcohol according to the legislation in force in his/her place of residence (whichever is higher). If no legal age exists in his/her place of residence, the User acknowledges that he/she is over 18 when accessing the Site.  To this end, the User must indicate his or her year of birth each time he or she enters the Site and certifies that he or she is of legal age. Once the legal age has been certified, the User must proceed as follows to access the Site: In the absence of a certified minimum legal age, the User will be denied access to the Site in accordance with the provisions of article 3323-5 of the French Public Health Code."
+                },
+                "site-description": {
+                    "title": "2.2 - Description of the Site proposed by Champagne Xavier LALUC",
+                    "text": "The purpose of the Site is to present the wine products and alcoholic beverages produced by Champagne Xavier LALUC. As such, following registration by the User, the User will have access to the following information: In the 'Product' section, the User will have access to information relating to the four Champagne vintages produced and developed by Champagne XAvier LALUC, as well as by-products derived from the cultivation of the vine; In the 'About-us' section, the User will have access to the various events that take place throughout the year at Champagne Xavier LALUC. The User will also be able to consult a map, as well as contact details and contacts by which to reach Champagne Xavier LALUC."
+                }
+            }
+        },
+        "article3": {
+            "header": "ARTICLE 3 - Image rights and intellectual property rights",
+            "content": "In accordance with the right to image laid down in article 9 of the French Civil Code, Champagne Xavier LALUC confirms that the images used featuring identifiable individuals have been published with the consent of these individuals. Furthermore, Champagne Xavier LALUC confirms that it is the owner of all communication elements and all photos used on the Site. It excludes any use without its express, written and prior authorization given by Champagne Xavier LALUC. Champagne Xavier LALUC remains the owner of all intellectual property rights, and more particularly, without this list being restrictive, on the code, articles, images, photos, texts etc.. It excludes any use without its express, written and prior authorization given by Champagne Xavier LALUC. In the event of violation of this prohibition, Champagne Xavier LALUC reserves the right to claim damages from the User."
+        },
+        "article4": {
+            "header": "ARTICLE 4 - Exclusion of liability",
+            "content": {
+                "intro": "Le Champagne Xavier LALUC shall not be held liable in the event of problems accessing the Application Site, and more particularly in case of force majeure or unavailability of the Site due to the occurrence of one of the following events:",
+                "events": {
+                    "1": "Occurrence of a bug on the Site's back-end or on the Site itself beyond the Company's control;",
+                    "2": "Problem with the server hosting the Site, said server not being under the control of Champagne Xavier LALUC;",
+                    "3": "Problem with the DNS/CDN (Domain Name System, Content Distribution Network)."
+                }
+            }
+        },
+        "article5": {
+            "header": "ARTICLE 5 - Personal data",
+            "content": "No personal data is collected by Champagne Xavier LALUC. No commercial cookies are used by Champagne Xavier LALUC. For any claim relating to the protection of personal data contact: "
+        }
     },
     "about-us": {
-        "header": "About us"
+        "header": "A propos de nous",
+        "header2": "Notre équipe",
+        "employee1": {
+            "name": "Employee 1",
+            "title": "Directeur",
+            "description": "Employee 1 est le directeur de notre entreprise. Il a plus de 10 ans d'expérience dans le domaine et a su mener notre entreprise vers le succès grâce à son leadership et sa vision stratégique. Il est passionné par son travail et s'efforce toujours de faire progresser notre entreprise.",
+            "alt": "Employee 1"
+        },
+        "employee2": {
+            "name": "Employee 2",
+            "title": "Manager",
+            "description": "Employee 2 est notre manager. Elle est responsable de la gestion de l'équipe et du bon déroulement des projets. Elle a une grande expérience en gestion de projet et sait comment motiver son équipe pour atteindre les objectifs fixés. Elle est toujours à l'écoute des besoins de ses collègues et s'efforce de créer un environnement de travail agréable.",
+            "alt": "Employee 2"
+        },
+        "employee3": {
+            "name": "Employee 3",
+            "title": "Développeur",
+            "description": "Employee 3 est notre développeur. Il est en charge de la création et du développement de nos produits. Il a une grande expertise en développement web et mobile, et sait comment créer des produits innovants et performants. Il est passionné par son travail et aime relever de nouveaux défis techniques.",
+            "alt": "Employee 3"
+        }
+    },
+    "products": {
+        "header": "Our products",
+        "subheader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae",
+        "product1": {
+            "name": "Champagne Brut",
+            "subtitle": "Simplicity",
+            "description": "With a fine blend of 60% Pinot Meunier, 30% Pinot Noir and 10% Chardonnay, this champagne is accessible in its flavors, and astonishing in its infinite possibilities for pairing. It is made from 57% reserve wines, giving it a unique consistency over the years. Its fruitiness will never disappoint your aperitifs, meats or fish. Enjoy it chilled by the pool or by the fire, it's synonymous with carefree celebration! It's also available in half-bottle format for solo pleasures, and in Magnum or Jeroboam for those who think big!",
+            "category": "Champagne",
+            "img": {
+                "src": "/bottleineTest.jpg",
+                "alt": "Image Champagne Brut"
+            }
+        },
+        "product2": {
+            "name": "Champagne Rosé",
+            "subtitle": "Sweetness for everyone",
+            "description": "The blend is made with 50% reserve wine contributed by 44% Pinot Noir, 36% Pinot Meunier and 20% Chardonnay. A full-bodied, salmon-colored color. On the nose, notes of figs, red plums and wild strawberries lead the palate to become more lively, with balanced fluidity and hints of confectionery. Despite its sweetness, it's a wine everyone can enjoy. It goes just as well with your most sophisticated desserts as with a simple chocolate fondant, to finish your lunches and dinners in the most beautiful way. ",
+            "category": "Champagne",
+            "img": {
+                "src": "/bottleineTest.jpg",
+                "alt": "Image Champagne Rosé"
+            }
+        },
+        "product3": {
+            "name": "Champagne Cuvée réserve",
+            "subtitle": "Perfect balanced",
+            "description": "It will surprise you with the elegance of its bubbles and its voluptuous tone. The nose reveals brioche, followed by subtle citrus, lime and verbena aromas. Taste finesse begins with a pastry-like aroma of raisin bread, followed by notes of pomegranate and mirabelle plum. Composed of 39% Pinot Noir, 20% Pinot Meunier and 41% Chardonnay, it brings out the more than 10 million bubbles in a bottle of champagne with unrivalled vigor. This champagne is the perfect balance between elegance and festivity, and punctuates your summer evenings in the most beautiful way.",
+            "category": "Champagne",
+            "img": {
+                "src": "/bottleineTest.jpg",
+                "alt": "Image Champagne Cuvée réserve"
+            }
+        },
+        "product4": {
+            "name": "Champagne Cuvée Eveillescence",
+            "subtitle": "Le champagne des fins gourmets",
+            "description": "Made from 100% Pinot Meunier, this is the champagne for great Champagne lovers. With it, you'll truly feel the limestone soil and mineral hues brought to our vines by the sun. This single-varietal Champagne has a unique taste and subtlety, with notes of Viennese pastries such as frangipane, and fruits such as apricot and nectarine. On the palate, the spices harmonize and balance each other, adding depth. Designed and conceived as a family affair, it's made to stand on its own, but will blend perfectly with your most refined dishes. ",
+            "category": "Champagne",
+            "img": {
+                "src":"/bottleineTest.jpg",
+                "alt": "Image Champagne Cuvée Eveillescence"
+            }
+        },
+        "product5": {
+            "name": "Ratafia",
+            "description": "Go la clem, go !",
+            "category": "Vin",
+            "img": {
+                "src": "/bottleineTest.jpg",
+                "alt": "Image Ratafia"
+            }
+        }
+    },
+    "terroir": {
+        "title": "Our terroir",
+        "intro": "Located on a beautiful hill in the Marne region north of Reims, in the Champagne appellation area and on the Saint Thierry massif, the Xavier Laluc family estate invites you to discover its world of flavors,",
+        "terroir1": {
+            "name": "Terroir 1",
+            "description": "Description du terroir n°1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet porttitor eget dolor morbi non arcu risus quis. Eget duis at tellus at urna condimentum mattis. Eget arcu dictum varius duis. Nisl pretium fusce id velit ut tortor pretium. Donec enim diam vulputate ut. Porta lorem mollis aliquam ut porttitor leo a. Facilisis gravida neque convallis a cras. Turpis nunc eget lorem dolor sed viverra. Sed risus pretium quam vulputate dignissim suspendisse in est ante. Non sodales neque sodales ut etiam sit. Ultrices sagittis orci a scelerisque. Maecenas volutpat blandit aliquam etiam. Tincidunt vitae semper quis lectus. Sit amet volutpat consequat mauris nunc congue nisi vitae suscipit. Gravida in fermentum et sollicitudin ac orci phasellus egestas.",
+            "img": {
+                "alt": "Terroir 1"
+            }
+        },
+        "terroir2": {
+            "name": "Terroir 2",
+            "description": "Description du terroir n°2 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet porttitor eget dolor morbi non arcu risus quis. Eget duis at tellus at urna condimentum mattis. Eget arcu dictum varius duis. Nisl pretium fusce id velit ut tortor pretium. Donec enim diam vulputate ut. Porta lorem mollis aliquam ut porttitor leo a. Facilisis gravida neque convallis a cras. Turpis nunc eget lorem dolor sed viverra. Sed risus pretium quam vulputate dignissim suspendisse in est ante. Non sodales neque sodales ut etiam sit. Ultrices sagittis orci a scelerisque. Maecenas volutpat blandit aliquam etiam. Tincidunt vitae semper quis lectus. Sit amet volutpat consequat mauris nunc congue nisi vitae suscipit. Gravida in fermentum et sollicitudin ac orci phasellus egestas.",
+            "img": {
+                "alt": "Terroir 2"
+            }
+        },
+        "terroir3": {
+            "name": "Terroir 3",
+            "description": "Description du terroir n°3 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet porttitor eget dolor morbi non arcu risus quis. Eget duis at tellus at urna condimentum mattis. Eget arcu dictum varius duis. Nisl pretium fusce id velit ut tortor pretium. Donec enim diam vulputate ut. Porta lorem mollis aliquam ut porttitor leo a. Facilisis gravida neque convallis a cras. Turpis nunc eget lorem dolor sed viverra. Sed risus pretium quam vulputate dignissim suspendisse in est ante. Non sodales neque sodales ut etiam sit. Ultrices sagittis orci a scelerisque. Maecenas volutpat blandit aliquam etiam. Tincidunt vitae semper quis lectus. Sit amet volutpat consequat mauris nunc congue nisi vitae suscipit. Gravida in fermentum et sollicitudin ac orci phasellus egestas.",
+            "img": {
+                "alt": "Terroir 3"
+            }
+        }
+    },
+    "history": {
+        "title": "Who we are",
+        "intro": "Vigneron propriétaire, récoltant coopérateur depuis 3 générations, nous apporter toute notre attention aux parcelles issus de nombreuses transmissions remontant à des origines connues depuis 1670. Certaines de ces terres se trouvaient être propices à la culture de la vigne par leur sous-sols à tendance calcaire et sablonneux-calcaire, leurs pente orientées sud-est et leur bel ensoleillement. These 3 elements combine to give the wines a quality development with a touch of freshness. Following the use of rootstocks to ward off phylloxera, vines were replanted in the family as early as 1956. Each year, while care begins with winter pruning, it only ends with the hand-picking of the grapes. That's why Xavier likes to say to his 3 children, Clémence, Héloïse and Pierre-Baptiste: 'The plant speaks to us'. Attentive to the environment in which we have been evolving for many years, we recuperate rainwater, work the soil and grass our vines. In this way, we try to limit inputs as much as possible and reduce Co2 emissions on our own scale. The estate is certified VDC: Viticulture Durable en Champagne."
     }
-    
 }

@@ -1,8 +1,4 @@
 {
-    "general": {
-        "title": "Mon site web",
-        "description": "Ceci est un site web"
-    },
     "nav": {
         "name": "Laluc",
         "about-us": "A propos de nous",
@@ -13,7 +9,6 @@
     },
     "home": {
         "header": "Bienvenue au Champagne Xavier Laluc",
-        "subheader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae",
         "allRightReserved": "Tous droits réservés"
     },
     "contact": {
@@ -43,7 +38,7 @@
             "company": "L’hébergement de ce Site (ci-après défini) est réalisé par la société …"
         },
         "terms-of-use": {
-            "text": "Les présentes mentions régissent la navigation sur le site www.champagne-xavier-laluc.com (« le Site ») de tout internaute se connectant aux Sites (« l’Utilisateur »). En utilisant le Site, l’Utilisateur reconnaît avoir lu et accepté sans réserve les présentes Conditions Générales d’Utilisation (« les CGU») qui régissent les conditions d’accès, de navigation et d'utilisation du site. Nous nous réservons le droit de modifier et/ou mettre à jour les présentes Conditions Générales d’Utilisation en publiant une nouvelle version sur notre Site. Nous vous invitons donc à les consulter régulièrement."
+            "text": "Les présentes mentions régissent la navigation sur le site www.champagne-xavier-laluc.com pour tout internaute. En utilisant le Site, l’Utilisateur reconnaît avoir lu et accepté sans réserve les présentes Conditions Générales d’Utilisation (« les CGU») qui régissent les conditions d’accès, de navigation et d'utilisation du site. Nous nous réservons le droit de modifier et/ou mettre à jour les présentes Conditions Générales d’Utilisation en publiant une nouvelle version sur notre Site. Nous vous invitons donc à les consulter régulièrement."
         }
     },
     "legalNotice": {
@@ -87,7 +82,7 @@
         },
         "article5": {
             "header": "ARTICLE 5 - Données personnelles",
-            "content": "Aucune données personnelles n’est collectée par le Champagne Xavier LALUC. Aucun cookie n’est utilisé par le Champagne Xavier LALUC. Pour toute réclamation relative à la protection des données personnelles contactez : "
+            "content": "Aucune données personnelles n’est collectée par le Champagne Xavier LALUC. Aucun cookie commercial n’est utilisé par le Champagne Xavier LALUC. Pour toute réclamation relative à la protection des données personnelles contactez : "
         }
     },
     "about-us": {
@@ -114,7 +109,6 @@
     },
     "products": {
         "header": "Nos produits",
-        "subheader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae",
         "product1": {
             "name": "Champagne Brut",
             "subtitle": "La simplicité",
