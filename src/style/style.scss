@@ -34,10 +34,11 @@ body {
   padding: 0;
 }
 
-button {
+button, .btn{
   background: none;
   border: none;
   box-shadow: none;
+  text-decoration: none;
 }
 
 .container {
