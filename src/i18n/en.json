@@ -91,18 +91,6 @@
             "title": "Directeur",
             "description": "Employee 1 est le directeur de notre entreprise. Il a plus de 10 ans d'expérience dans le domaine et a su mener notre entreprise vers le succès grâce à son leadership et sa vision stratégique. Il est passionné par son travail et s'efforce toujours de faire progresser notre entreprise.",
             "alt": "Employee 1"
-        },
-        "employee2": {
-            "name": "Employee 2",
-            "title": "Manager",
-            "description": "Employee 2 est notre manager. Elle est responsable de la gestion de l'équipe et du bon déroulement des projets. Elle a une grande expérience en gestion de projet et sait comment motiver son équipe pour atteindre les objectifs fixés. Elle est toujours à l'écoute des besoins de ses collègues et s'efforce de créer un environnement de travail agréable.",
-            "alt": "Employee 2"
-        },
-        "employee3": {
-            "name": "Employee 3",
-            "title": "Développeur",
-            "description": "Employee 3 est notre développeur. Il est en charge de la création et du développement de nos produits. Il a une grande expertise en développement web et mobile, et sait comment créer des produits innovants et performants. Il est passionné par son travail et aime relever de nouveaux défis techniques.",
-            "alt": "Employee 3"
         }
     },
     "products": {
@@ -185,6 +173,6 @@
     },
     "history": {
         "title": "Who we are",
-        "intro": "Vigneron propriétaire, récoltant coopérateur depuis 3 générations, nous apporter toute notre attention aux parcelles issus de nombreuses transmissions remontant à des origines connues depuis 1670. Certaines de ces terres se trouvaient être propices à la culture de la vigne par leur sous-sols à tendance calcaire et sablonneux-calcaire, leurs pente orientées sud-est et leur bel ensoleillement. These 3 elements combine to give the wines a quality development with a touch of freshness. Following the use of rootstocks to ward off phylloxera, vines were replanted in the family as early as 1956. Each year, while care begins with winter pruning, it only ends with the hand-picking of the grapes. That's why Xavier likes to say to his 3 children, Clémence, Héloïse and Pierre-Baptiste: 'The plant speaks to us'. Attentive to the environment in which we have been evolving for many years, we recuperate rainwater, work the soil and grass our vines. In this way, we try to limit inputs as much as possible and reduce Co2 emissions on our own scale. The estate is certified VDC: Viticulture Durable en Champagne."
+        "intro": "Winemaker landlord, cooperative grower for 3 generations, we bring all our attention to the plots from many transmissions dating back to known origins since 1670. Some of these lands happened to be suitable for the cultivation of the vine by their sub-soils with a tendency to limestone and sandy-limestone, their south-east facing slopes and their beautiful sunshine. These 3 elements combine to give the wines a quality development with a touch of freshness. Following the use of rootstocks to ward off phylloxera, vines were replanted in the family as early as 1956. Each year, while care begins with winter pruning, it only ends with the hand-picking of the grapes. That's why Xavier likes to say to his 3 children, Clémence, Héloïse and Pierre-Baptiste: 'The plant speaks to us'. Attentive to the environment in which we have been evolving for many years, we recuperate rainwater, work the soil and grass our vines. In this way, we try to limit inputs as much as possible and reduce Co2 emissions on our own scale. The estate is certified VDC: Viticulture Durable en Champagne."
     }
 }
