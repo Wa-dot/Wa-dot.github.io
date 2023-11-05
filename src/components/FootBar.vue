@@ -90,19 +90,27 @@ export default {
             text-decoration: none;
             grid-area: linkArea;
             padding: 15px 10px;
+
         }
     }
 
     .footer__social {
         grid-area: sm;
+
         .footer__social-link {
             padding: 0 4px;
         }
     }
 
-    .footer__company{
+    .footer__company {
         grid-area: companyArea;
         padding-top: 5px;
     }
-}
-</style>
+
+    @media (max-width: $intWidthMedia) {
+        .footer__link, .footer__social {
+            display: grid;
+            text-align: left;
+        }
+    }
+}</style>
