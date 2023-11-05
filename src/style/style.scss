@@ -30,11 +30,12 @@
 }
 
 body {
-  margin-top: 2.5%;
+  margin-top: 2.5vw;
   padding: 0;
 }
 
-button, .btn{
+button,
+.btn {
   background: none;
   border: none;
   box-shadow: none;
@@ -66,12 +67,12 @@ button, .btn{
   font-weight: bold;
 }
 
-@media (max-width: 799px) {
+@media (max-width: $maxWidthMedia) {
   .container {
-    margin: 15px;
+    margin: 1.5rm;
   }
 
   .title {
-    margin-top: 20%;
+    margin-top: 15%;
   }
 }

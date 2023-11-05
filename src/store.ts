@@ -33,7 +33,8 @@ export const information = reactive({
         city: 'BRIMONT',
         postalCode: '51220',
         country: 'France',
-        phone: '+1234567890',
+        phone: '+33 326080416',
+        phone2: '+33 622248963',
         email: 'cxlaluc@orange.fr',
         facebook: 'https://www.facebook.com/',
         instagram: 'https://www.instagram.com/'

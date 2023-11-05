@@ -4,12 +4,12 @@
             {{ $t("products.header") }}
         </h1>
         <article class="card" v-for="products in nbOfProducts" :key="products">
-            <div class="card-content">
+            <div class="card-content" :id=productId[products-1] ref={{products}}>
                 <img v-if="(products % 2) == 1" :src=productsImg[products] v-bind:alt=$t(getTextAlt(products))
                     class="profile-image-left">
                 <div class="profile-info"
-                    :style="((products % 2) == 0) ? { 'text-align': 'right' } : { 'text-align': 'left' }">
-                    <h3 :style="((products % 2) == 0) ? { 'text-align': 'right' } : { 'text-align': 'left' }">{{
+                    v-bind:class="(products % 2) == 0 ? { 'right': true, 'left': false } : { 'left': true, 'right': false }">
+                    <h3 class="title-product">{{
                         $t(getText(products, '.name')) }} : {{ $t(getText(products, '.subtitle')) }}</h3>
                     <p class="category">{{ $t(getText(products, '.category')) }}</p>
                     <img :src=productsImg[products] v-bind:alt=$t(getTextAlt(products)) class="little-media">
@@ -31,9 +31,17 @@ export default {
             productsImg: images.products,
             windowWidth: window.innerWidth,
             rightPosition: true,
-            productId: [] as string | string[]
-
+            productId: [
+                "product1",
+                "product2",
+                "product3",
+                "product4",
+                "product5",
+            ]
         }
+    },
+    mounted() {
+        this.scrollToTarget();
     },
     methods: {
         getText(productsNumber: number, value: string) {
@@ -41,12 +49,22 @@ export default {
         },
         getTextAlt(productsNumber: number) {
             return 'products.product' + String(productsNumber) + '.alt';
+        },
+        scrollToTarget() {
+            var target = localStorage.getItem("productNumber");
+            if (target) {
+                var objet = JSON.parse(target);
+                if (new Date().getTime() > objet.expiration) {
+                    localStorage.removeItem("productNumber");
+                    window.scrollTo(0, 0);
+                }
+                else {
+                    var classToScroll = document.querySelector('#product' + String(objet.value));
+                    if (classToScroll) classToScroll.scrollIntoView({ behavior: "smooth", block: "center" });
+                }
+            }
         }
-    },
-    mounted() {
-        this.productId = 'product' + this.$route.params.id;
     }
-
 }
 
 </script>
@@ -54,11 +72,18 @@ export default {
 <style lang="scss">
 @import "../style/style.scss";
 
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
 .little-media {
     display: none;
 }
-
-
 
 .profile-image-right {
     margin-left: 20px;
@@ -78,15 +103,17 @@ export default {
     text-align: justify;
 }
 
-@media (max-width: 999px) {
+@media (max-width: $maxWidthMedia ) {
     .card-content {
         padding: 20px 5px 20px 5px;
         text-align: center;
+        h3{
+            font-size: 1.5rem;
+        }
     }
 
-    .profile-info {
-        position: flex;
-        text-align: left;
+    .right, .left {
+        text-align: center;
     }
 
     .little-media {

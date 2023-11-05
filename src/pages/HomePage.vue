@@ -1,8 +1,9 @@
 <template>
     <section id="cover">
-        <h1>{{ $t("home.header") }}</h1>
+        <h1 class="title-cover">{{ $t("home.header") }}</h1>
 
     </section>
+    <Popup/>
     <section id="product-home">
         <div class="container reveal">
             <h2 class="home-section-name">{{ $t("products.header") }}</h2>
@@ -25,11 +26,11 @@
     </section>
     <section id="terroir-home">
         <div class="container reveal .top">
-            <h2 class="home-section-name">{{ $t("histoire.title") }}</h2>
+            <h2 class="home-section-name">{{ $t("history.title") }}</h2>
             <div class="text-container">
                 <div class="text-box">
                     <p>
-                        {{ $t("histoire.intro") }}
+                        {{ $t("history.intro") }}
                     </p>
                 </div>
             </div>
@@ -39,6 +40,7 @@
 
 <script lang="ts">
 import Slider from "../components/Slider.vue"
+import Popup from "../components/Popup.vue"
 
 function reveal() {
     var reveals = document.querySelectorAll(".reveal");
@@ -51,13 +53,15 @@ function reveal() {
     }
 
 }
+mounted: reveal();
 
 window.addEventListener("scroll", reveal);
 
 export default {
 
     components: {
-        Slider
+        Slider,
+        Popup
     }
 
 } 
@@ -79,18 +83,25 @@ export default {
      text-shadow: 5px 5px 10px $black;
  }
 
+ .title-cover{
+        text-align: center;
+        padding-top: 20%;
+        padding-bottom: 20%;
+        font-size:calc(30px + 3vw);
+ }
+
  .home-section-name {
      text-align: center;
      text-transform: uppercase;
      color: $primary-color;
      font-weight: bold;
-     font-size: 3vw;
+     font-size: calc(20px + 2vw);
      margin-bottom: 1ev;
  }
 
  .text-box {
      color: $primary-color;
-     font-size: 150%;
+     font-size: calc(15px + 1vw);
      text-align: justify;
  }
 
@@ -110,15 +121,8 @@ export default {
  }
 
  section .text-container .text-box {
-     margin: 20px;
-     padding: 20px;
- }
-
- section .text-container .text-box h3 {
-     font-size: 30px;
-     text-align: center;
-     text-transform: uppercase;
-     margin-bottom: 10px;
+     margin: 0.5vw 0.5vw;
+     padding: 0.5vw;
  }
 
  .reveal {
